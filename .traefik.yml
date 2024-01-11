@@ -1,0 +1,10 @@
+displayName: traefik-http-cache-middleware
+type: middleware
+iconPath: .assets/icon.png
+
+import: github.com/eleven-labs/traefik-http-cache-middleware
+
+summary: Plugins middleware for cache http response
+
+testData:
+  paths: "overwrite path"
