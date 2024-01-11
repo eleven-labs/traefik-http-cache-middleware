@@ -6,5 +6,14 @@ import: github.com/eleven-labs/traefik-http-cache-middleware
 
 summary: Plugins middleware for cache http response
 
+compatibility: TODO
+
 testData:
+  redis:
+    hostname: localhost
+    port:     6379
+    username: ""
+    password: redis
+    database: 0
+    protocol: 0
   paths: "overwrite path"
